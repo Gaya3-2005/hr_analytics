@@ -1,0 +1,53 @@
+HR Analytics Dashboard – Project Report
+
+1. Project Overview
+The HR Analytics Dashboard is designed to help HR teams monitor and analyze workforce trends. It visualizes key metrics such as attrition, headcount, average salary, and employee demographics to support data-driven decision-making.
+
+2. Problem Statement
+Organizations face challenges in understanding workforce dynamics, especially in identifying factors contributing to attrition and employee dissatisfaction. This project aims to provide actionable insights through a centralized, interactive dashboard.
+
+3. Data Source
+Dataset Type: HR Employee Data
+File Format: CSV
+Key Columns: Age, Attrition, Business Travel, Daily Rate, Department, Distance from Home, Education, Gender, Job Role, Monthly Income, Tenure, etc.
+
+4. Tools & Technologies Used
+Python (Pandas, NumPy, Matplotlib, Seaborn) – Data cleaning & KPI calculation
+Power BI – Dashboard creation
+Jira – Project management & workflow tracking
+GitHub – Project hosting & version control
+
+5. Key Performance Indicators (KPIs)
+Data Collection: Gather HR dataset.
+Data Cleaning: Handle missing values, duplicates, and formatting issues.
+KPI Calculation: Compute Headcount, Attrition Rate, Avg Age, Avg Monthly Income, Avg Tenure, Gender Ratio.
+Dashboard Wireframe: Design layout for KPI cards, charts, and filters.
+Dashboard Development: Build in Power BI using calculated KPIs and visuals.
+Testing & Review: Validate results, adjust visuals for clarity.
+Final Deployment: Publish dashboard and share with stakeholders.
+
+7. Dashboard Features
+KPI Cards for quick insight
+Department-wise Attrition chart
+Age distribution histogram
+Salary trends by Job Role
+Filters for Department, Job Role, Gender, and Education Field
+Gender diversity visualization
+
+8. Insights & Recommendations
+Departments with higher attrition require retention strategies.
+Younger employees show higher mobility; career development plans could improve retention.
+Gender balance varies significantly across departments — potential diversity initiatives needed.
+
+9. Project Management in Jira
+Backlog: Dataset gathering, KPI definition, wireframe design
+Sprint 1: Data cleaning & KPI calculation
+Sprint 2: Dashboard building & stakeholder review
+Sprint 3: Documentation, portfolio upload, and GitHub publishing
+
+10. Files in This Repository
+HR_Analytics_Dashboard.pbix – Power BI dashboard file
+data_cleaning_and_kpi_calculation.ipynb – Python code for preprocessing
+dataset.csv – HR dataset used
+project_report.pdf – This report in PDF format
+README.md – GitHub project overview
